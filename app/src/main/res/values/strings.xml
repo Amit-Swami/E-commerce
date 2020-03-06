@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Amazone_ecommerce</string>
+    <string name="slogan">"People were doing business with one another through the internet already,through bulletin boards.But on the App,we could make it interactive,we could create an auction,we could create a real marketplace.And that's really what triggered our imagination, if you will,and thats what we did."</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="facebook_app_id">310311469687563</string>
+    <string name="facebook_login_protocol_name">fb310311469687563</string>
+    <string name="account_kit_client_token">64bfab17d35ff54a1fd7171a3a67212b</string>
+    <string name="title_activity_tracking_order">Map</string>
+</resources>

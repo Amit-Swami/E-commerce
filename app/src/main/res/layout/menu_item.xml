@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/menu_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ecommerce_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/menu_name"
+            android:text="Name of Menu"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/quitemagical"
+            android:layout_centerInParent="true"
+            android:background="#4f0e0d0e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

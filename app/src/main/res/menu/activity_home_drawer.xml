@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_cart"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/nav_home_address"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Home Address"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_orders"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_update_name"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Update Name"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_log_out"
+            android:iconTint="#ffffff"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign out" />
+
+
+    </group>
+
+</menu>
