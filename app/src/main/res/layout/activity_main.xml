@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ecommerce_logo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000">
+        <TextView
+            android:id="@+id/headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pacifico"
+            android:text="e-commerce"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:textSize="70sp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:id="@+id/textslogan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:fontFamily="@font/kaushan"
+            android:layout_below="@id/headline"
+            android:layout_centerInParent="true"
+            android:text="@string/slogan"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_margin="8dp"
+            app:fButtonColor="@color/loginbtncolor"
+            android:textColor="#ffffff"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
